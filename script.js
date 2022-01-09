@@ -1,8 +1,5 @@
 import DeviceDetector from "https://cdn.skypack.dev/device-detector-js@2.2.10";
-// Usage: testSupport({client?: string, os?: string}[])
-// Client and os are regular expressions.
-// See: https://cdn.jsdelivr.net/npm/device-detector-js@2.2.10/README.md for
-// legal values for client and os
+/
 testSupport([
     { client: 'Chrome' },
 ]);
